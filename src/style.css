@@ -1,0 +1,114 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('../dist/fonts/Segoe UI.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('../dist/fonts/Segoe UI Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('../dist/fonts/Segoe UI Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('../dist/fonts/Segoe UI Bold Italic.woff') format('woff');
+}
+
+
+/* FONTS */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font1 {
+    font-family: 'Segoe UI Regular';
+}
+
+.font2 {
+    font-family: 'Segoe UI Italic';
+}
+
+.font3 {
+    font-family: 'Segoe UI Bold';
+}
+
+.font4 {
+    font-family: 'Segoe UI Bold Italic';
+}
+
+.login-section {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.06);
+}
+
+
+/* LOGIN PAGE */
+
+
+/* BOOKING PAGE */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-button-section button,
+.dropdown-button-section .dropdown-menu {
+    width: 900px;
+}
+
+
+/* BOOKING PAGE */
+
+
+/* DROP DOWN MENU BUTTON */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 440px) {
+    .dropdown-button-section button,
+    .dropdown-button-section .dropdown-menu {
+        width: 300px;
+    }
+}
+
+@media screen and (min-device-width: 441px) and (max-device-width: 768px) {
+    .dropdown-button-section button,
+    .dropdown-button-section .dropdown-menu {
+        width: 680px;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .dropdown-button-section button,
+    .dropdown-button-section .dropdown-menu {
+        width: 600px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1280px) {
+    .dropdown-button-section button,
+    .dropdown-button-section .dropdown-menu {
+        width: 600px;
+    }
+}
+
+@media screen and (min-device-width: 1281px) and (max-device-width: 1440px) {
+    .dropdown-button-section button,
+    .dropdown-button-section .dropdown-menu {
+        width: 850px;
+    }
+}
+
+
+/* DROP DOWN MENU BUTTON */
